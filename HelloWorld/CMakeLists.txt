@@ -13,9 +13,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 COMPONENTS Core Quick REQUIRED)
 
-add_executable(${PROJECT_NAME}
-    main.cpp
-    qml.qrc
-)
-
-target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Core Qt6::Quick)
+add_subdirectory(src)
