@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qml/components">
+    <file>qmldir</file>
+    <file>CustomComponent.qml</file>
+    <file>AnotherCustomComponent.qml</file>
+  </qresource>
+</RCC>
