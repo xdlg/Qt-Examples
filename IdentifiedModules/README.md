@@ -32,6 +32,6 @@ IdentifiedModules/
 
 ## Resources
 
-- [Qt doc on identified modules](https://doc.qt.io/qt-6/qtqml-modules-identifiedmodules.html)
-- [Qt doc on qmldir files](https://doc.qt.io/qt-6/qtqml-modules-qmldir.html)
-- [Useful answer on StackOverflow](https://stackoverflow.com/a/46096179/6203129)
+- [Qt doc](https://doc.qt.io/qt-6/qtqml-modules-identifiedmodules.html) on identified modules.
+- [Qt doc](https://doc.qt.io/qt-6/qtqml-modules-qmldir.html) on qmldir files.
+- [Useful answer](https://stackoverflow.com/a/46096179/6203129) on StackOverflow.
