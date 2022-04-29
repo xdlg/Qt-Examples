@@ -13,9 +13,9 @@ IdentifiedModules/
     ├── main.cpp
     └── qml
         ├── components
-        │   ├── AnotherCustomComponent.qml
+        │   ├── another_custom_component.qml
         │   ├── components.qrc
-        │   ├── CustomComponent.qml
+        │   ├── custom_component.qml
         │   └── qmldir
         ├── main.qml
         └── qml.qrc

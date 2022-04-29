@@ -1,10 +1,10 @@
 #pragma once
 
+#include "model.hpp"
 #include <QObject>
 #include <QtQml/qqmlregistration.h>
-#include "Model.hpp"
 
-class Presenter: public QObject
+class Presenter : public QObject
 {
   Q_OBJECT
   Q_PROPERTY(int value READ value WRITE setValue NOTIFY valueChanged)

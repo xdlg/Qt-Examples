@@ -1,7 +1,7 @@
-#include "Model.hpp"
+#include "model.hpp"
 #include <QDebug>
 
-Model::Model(QObject* parent): QObject(parent) {}
+Model::Model(QObject* parent) : QObject(parent) {}
 
 unsigned int Model::value() const
 {

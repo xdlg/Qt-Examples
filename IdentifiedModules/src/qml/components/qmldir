@@ -1,3 +1,3 @@
 module components
-CustomComponent 1.0 CustomComponent.qml
-AnotherCustomComponent 1.0 AnotherCustomComponent.qml
+CustomComponent 1.0 custom_component.qml
+AnotherCustomComponent 1.0 another_custom_component.qml

@@ -2,7 +2,7 @@
 
 #include <QObject>
 
-class Model: public QObject
+class Model : public QObject
 {
   Q_OBJECT
   Q_PROPERTY(int value READ value WRITE setValue NOTIFY valueChanged)

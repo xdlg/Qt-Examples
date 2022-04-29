@@ -1,7 +1,7 @@
-#include "Presenter.hpp"
+#include "presenter.hpp"
 #include <QDebug>
 
-Presenter::Presenter(QObject* parent): QObject(parent), _model(this)
+Presenter::Presenter(QObject* parent) : QObject(parent), _model(this)
 {
   QObject::connect(&_model, &Model::valueChanged, this, &Presenter::valueChanged);
 }

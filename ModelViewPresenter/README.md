@@ -11,12 +11,12 @@ ModelViewPresenter/
 └── src
     ├── CMakeLists.txt
     ├── main.cpp
-    ├── Model.cpp
-    ├── Model.hpp
-    ├── Presenter.cpp
-    ├── Presenter.hpp
+    ├── model.cpp
+    ├── model.hpp
+    ├── presenter.cpp
+    ├── presenter.hpp
     ├── qml.qrc
-    └── View.qml
+    └── view.qml
 ```
 
 ## Explanations
