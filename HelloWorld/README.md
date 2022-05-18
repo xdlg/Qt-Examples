@@ -5,7 +5,7 @@ Minimal project structure and initialization.
 ## Directory structure
 
 ```
-HelloWorld/
+HelloWorld
 ├── CMakeLists.txt
 ├── README.md
 └── src

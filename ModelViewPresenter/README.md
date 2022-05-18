@@ -5,7 +5,7 @@ Simple Model-View-Presenter architecture with a C++ model, a C++ presenter regis
 ## Directory structure
 
 ```
-ModelViewPresenter/
+ModelViewPresenter
 ├── CMakeLists.txt
 ├── README.md
 └── src

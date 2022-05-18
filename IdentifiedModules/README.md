@@ -5,7 +5,7 @@ How to setup a custom QML module (i.e. a namespace containing reusable QML compo
 ## Directory structure
 
 ```
-IdentifiedModules/
+IdentifiedModules
 ├── CMakeLists.txt
 ├── README.md
 └── src
