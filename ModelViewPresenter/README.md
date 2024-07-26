@@ -28,7 +28,7 @@ ModelViewPresenter
 
 Additional remarks:
 - There are debug statements here and there to make the call sequence apparent.
-- This is just one way to implement an MVP UI in Qt. The way that the view instantiates the presenter, and that the presenter instantiates the model, wouldn't work for less trivial architectures, for example if one model had to provide data to several presenters. In that case, something like dependency injection could help, but that's beyond the scope of the example.
+- This is just one way to implement an MVP UI in Qt. The way that the view instantiates the presenter, and that the presenter instantiates the model, wouldn't work for less trivial architectures, for example if one model had to provide data to several presenters.
 - Of course, this is a very simple example, so the presenter looks like it's doing nothing (just relaying function calls to the model). In a real application, the presenter would have other responsibilities, such as formatting the model data for displaying. For example, the model could provide a speed in km/h, and the presenter could relay it to the view in km/h or convert it to mph depending on the application's settings.
 
 ## Resources
