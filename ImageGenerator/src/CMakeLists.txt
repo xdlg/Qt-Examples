@@ -1,4 +1,4 @@
-add_executable(${PROJECT_NAME}
+qt_add_executable(${PROJECT_NAME}
     main.cpp
     qml.qrc
     image_generator.cpp
