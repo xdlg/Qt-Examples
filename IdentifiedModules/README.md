@@ -24,7 +24,7 @@ IdentifiedModules
 ## Explanations
 
 1. QML components (`CustomComponent` and `AnotherCustomComponent`) are located in `qml/components` and listed in a [`qmldir`](https://doc.qt.io/qt-6/qtqml-modules-qmldir.html) file.
-2. The module identifier at the beginning of the `qmldir` file indicates the path of the module directory relative to the path that will be imported in step 4. The path names *have* to match.
+2. The module identifier at the beginning of the `qmldir` file indicates the path of the module directory relative to the path that will be imported in step 5. The path names *have* to match.
 3. The QML modules and the `qmldir` file are listed in `components.qrc` (the name of this particular file doesn't matter) under a prefix corresponding to the `qml/components` directory.
 3. `src/CMakeLists.txt` adds `components.qrc` to the executable.
 4. In `main.cpp`, the path to the `qml` directory is added to the engine via [`addImportPath()`](https://doc.qt.io/qt-6/qqmlengine.html#addImportPath).

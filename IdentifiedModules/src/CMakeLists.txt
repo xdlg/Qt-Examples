@@ -1,6 +1,4 @@
-find_package(Qt6 COMPONENTS Core Quick REQUIRED)
-
-add_executable(${PROJECT_NAME}
+qt_add_executable(${PROJECT_NAME}
   main.cpp
   qml/qml.qrc
   qml/components/components.qrc
